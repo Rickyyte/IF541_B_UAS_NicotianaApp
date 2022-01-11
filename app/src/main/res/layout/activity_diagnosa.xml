@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical"
+    android:padding="10dp"
+    android:background="#F3FAE9">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <CheckBox
+            android:id="@+id/sesakNafas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onCheckboxClicked"
+            android:text="SESAK NAFAS" />
+
+        <CheckBox
+            android:id="@+id/beratBadan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onCheckboxClicked"
+            android:text="BERAT BADAN MENURUN" />
+
+        <CheckBox
+            android:id="@+id/batukBerdarah"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onCheckboxClicked"
+            android:text="BATUK BERDARAH"/>
+
+        <CheckBox
+            android:id="@+id/nyeriDada"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onCheckboxClicked"
+            android:text="NYERI DADA" />
+
+        <CheckBox
+            android:id="@+id/pusing"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onCheckboxClicked"
+            android:text="PUSING" />
+
+        <CheckBox
+            android:id="@+id/lemas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onCheckboxClicked"
+            android:text="LEMAS" />
+
+        <CheckBox
+            android:id="@+id/mual"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onCheckboxClicked"
+            android:text="MUAL"/>
+
+        <CheckBox
+            android:id="@+id/kesadaranMenurun"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onCheckboxClicked"
+            android:text="KESADARAN MENURUN" />
+
+        <CheckBox
+            android:id="@+id/sulitBicara"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onCheckboxClicked"
+            android:text="KESULITAN BERBICARA"/>
+
+        <CheckBox
+            android:id="@+id/buangAir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onCheckboxClicked"
+            android:text="SERING BUANG AIR KECIL" />
+
+        <CheckBox
+            android:id="@+id/lukaSulitsembuh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onCheckboxClicked"
+            android:text="LUKA SULIT SEMBUH"/>
+
+        <CheckBox
+            android:id="@+id/detakJantung"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onCheckboxClicked"
+            android:text="DETAK JANTUNG BERDEBAR" />
+
+        <CheckBox
+            android:id="@+id/mimisan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onCheckboxClicked"
+            android:text="MIMISAN" />
+
+        <Button
+            android:id="@+id/diagnosaBtn"
+            android:textColor="#F3FAE9"
+            android:backgroundTint="@color/tiber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DIAGNOSA"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textDiagnosa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nama Diagnosa"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            />
+
+        <Button
+            android:id="@+id/solusiBtn"
+            android:textColor="#F3FAE9"
+            android:backgroundTint="@color/tiber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SOLUSI"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+</ScrollView>

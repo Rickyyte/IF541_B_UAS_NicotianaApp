@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lime">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="50dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/stopsmoking" />
+
+        <TextView
+            android:id="@+id/desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tahukah Kamu?"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="20dp"
+            android:textColor="@color/tiber"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="30dp"
+            android:justificationMode="inter_word"
+            android:text="Setiap rokok yang Anda hisap bisa meningkatkan risiko terkena berbagai penyakit, mulai dari penyakit jantung, stroke, masalah kesuburan, dan gangguan pada paru-paru. Di Indonesia, diperkirakan ada lebih dari 230.000 orang yang meninggal akibat kebiasaan merokok setiap tahunnya. Hanya dari asap rokok saja, terdapat sekitar 5000 senyawa berbeda dan sebagian bersifat racun bagi tubuh. Kandungan rokok yang bersifat racun tersebut berpotensi merusak sel-sel tubuh. Selain itu, senyawa dalam asap rokok juga bersifat karsinogenik alias memicu kanker. Di dalam rokok, terdapat 250 jenis zat beracun dan 70 jenis zat yang diketahui bersifat karsinogenik."
+            android:textColor="@color/tiber"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">Nicotiana</string>
+    <string name="title_activity_mainmenu">MainmenuActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_coba">CobaActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+
+    <string name="solusi_kanker"><b><big>Solusi</big></b>
+        \n <li>Menghentikan kebiasaan merokok</li>
+        \n <li>Menerapkan gaya hidup sehat</li>
+        \n <li>Melakukan Operasi</li>
+        \n <li>Melakukan Kemoterapi</li>
+        \n <li>Melakukan Radioterapi</li>
+    </string>
+
+    <string name="solusi_stroke"><b><big>Solusi</big></b>
+        \n <li>Menghentikan kebiasaan merokok</li>
+        \n <li>Rajin berolahraga</li>
+        \n <li>Menjaga berat badan tetap ideal</li>
+        \n <li>Makan lebih banyak buah dan sayur</li>
+        \n <li>Mengurangi makanan yang digoreng dan manis</li>
+        \n <li>Cukup tidur</li>
+        \n <li>Mengurangi stres berlebih</li>
+        \n <li>Mengontrol gula darah, tekanan darah, dan kolesterol</li>
+    </string>
+
+    <string name="solusi_hipertensi"><b><big>Solusi</big></b>
+        \n <li>Menghentikan kebiasaan merokok</li>
+        \n <li>Perbanyak aktivitas atau olahraga</li>
+        \n <li>Turunkan berat badan jika mengalami kelebihan berat badan</li>
+        \n <li>Kurangi gula dan karbohidrat olahan</li>
+        \n <li>Makan lebih banyak kalium dan lebih sedikit natrium</li>
+        \n <li>Kurangi makan makanan olahan</li>
+        \n <li>Mengurangi stres berlebih</li>
+        \n <li>Makan cokelat hitam</li>
+    </string>
+
+    <string name="solusi_diabetes"><b><big>Solusi</big></b>
+        \n <li>Menghentikan kebiasaan merokok</li>
+        \n <li>Mempertahankan berat badan ideal dengan mengonsumsi makanan rendah lemak</li>
+        \n <li>Mengonsumsi makanan tinggi serat seperti buah dan sayur</li>
+        \n <li>Mengurangi konsumsi makanan dan minuman manis</li>
+        \n <li>Berolahraga secara rutin dan banyak melakukan aktivitas fisik</li>
+    </string>
+
+    <string name="solusi_jantung"><b><big>Solusi</big></b>
+        \n <li>Menghentikan kebiasaan merokok</li>
+        \n <li>Memperbanyak konsumsi lemak tak jenuh dan serat</li>
+        \n <li>Menghilangkan lemak yang menumpuk di perut dan bagian tubuh lainnya</li>
+        \n <li>Berolahraga secara teratur</li>
+        \n <li>Menghindari minuman beralkohol</li>
+    </string>
+</resources>
